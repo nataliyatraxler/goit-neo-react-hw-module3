@@ -1,0 +1,39 @@
+.contactsContainer {
+    display: flex;
+    flex-direction: wrap;
+   
+    gap: 10px;
+    
+    align-items: flex-start;
+   
+}
+
+input {
+    margin-bottom: 10px;
+   
+}
+.contactCard {
+    border: 1px solid #ccc;
+   
+    padding: 5px;
+    border-radius: 5px;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   
+    background-color: #f9f9f9;
+  
+    width: 200px;
+    
+    text-align: left;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.label {
+    margin-bottom: 10px;
+    /* Відстань між текстом і полем */
+    display: block;
+    /* Перевести текст в окремий рядок */
+}

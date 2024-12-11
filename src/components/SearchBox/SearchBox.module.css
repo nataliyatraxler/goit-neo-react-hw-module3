@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    /* Use flexbox for horizontal alignment */
+    align-items: center;
+    /* Align items vertically */
+    gap: 10px;
+    /* Add spacing between the label and input */
+}
+
+.label {
+    font-weight: bold;
+    /* Make the label bold for clarity */
+}
